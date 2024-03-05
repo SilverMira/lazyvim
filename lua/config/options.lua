@@ -15,3 +15,5 @@ for _, shell in ipairs(shell_fallbacks) do
     break
   end
 end
+
+require("config.neovide").apply()
