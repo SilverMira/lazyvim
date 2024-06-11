@@ -3,8 +3,7 @@
 -- Add any additional options here
 
 local shell_fallbacks = {
-  "elvish",
-  "nu",
+  "zsh",
   "powershell",
   "bash",
 }
