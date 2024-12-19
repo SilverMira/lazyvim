@@ -14,6 +14,9 @@ return {
       if vim.fn.has("win32") == 1 then
         opts.flutter_path = opts.flutter_path .. ".bat"
       end
+      opts.debugger = {
+        enabled = true,
+      }
     end,
     config = function(_, opts)
       require("telescope").load_extension("flutter")
