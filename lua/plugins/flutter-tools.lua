@@ -19,7 +19,10 @@ return {
       }
     end,
     config = function(_, opts)
-      require("telescope").load_extension("flutter")
+      local has_telescope, telescope = pcall(require, "telescope")
+      if has_telescope then
+        telescope.load_extension("flutter")
+      end
       require("flutter-tools").setup(opts)
     end,
   },
