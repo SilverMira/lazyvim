@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 local shell_fallbacks = {
+  "nu",
   "zsh",
   "powershell",
   "bash",
@@ -10,6 +11,7 @@ local shell_fallbacks = {
 
 local shell_cmds = {
   ["zsh"] = "-s -c",
+  ["nu"] = "-c",
 }
 
 local shell_quote = {

@@ -7,4 +7,8 @@ return {
       })
     end,
   },
+  {
+    "julianolf/nvim-dap-lldb",
+    dependencies = { "mfussenegger/nvim-dap" },
+  },
 }
