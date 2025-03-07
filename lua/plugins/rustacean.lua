@@ -10,5 +10,6 @@ return {
   {
     "julianolf/nvim-dap-lldb",
     dependencies = { "mfussenegger/nvim-dap" },
+    ft = { "rust" },
   },
 }

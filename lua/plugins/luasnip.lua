@@ -18,5 +18,6 @@ return {
         end,
       })
     end,
+    optional = true,
   },
 }
