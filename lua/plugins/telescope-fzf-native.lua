@@ -8,5 +8,6 @@ return {
       return shell .. ' "' .. build_command .. '"'
     end)(),
     enabled = vim.fn.executable("cmake") == 1,
+    optional = true,
   },
 }

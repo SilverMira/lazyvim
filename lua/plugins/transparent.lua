@@ -13,5 +13,6 @@ return {
       require("transparent").setup(opts)
       require("transparent").clear_prefix("NeoTree")
     end,
+    optional = true,
   },
 }

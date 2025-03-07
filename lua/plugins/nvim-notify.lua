@@ -7,5 +7,6 @@ return {
       opts.render = "wrapped-compact"
       return opts
     end,
+    optional = true,
   },
 }
